@@ -1,4 +1,4 @@
 FROM bash:latest
-COPY . /var/www/bash
-WORKDIR /var/www/bash  
+COPY . /bash
+WORKDIR /bash
 CMD ["bash"]
