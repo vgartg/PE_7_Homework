@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. /bash/BashFile.sh
+. /BashFile.sh
 
 if [ ! $[$(Prod 1 1)==1] ]
 then exit 99;
